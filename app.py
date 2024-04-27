@@ -13,9 +13,7 @@ import os
 
 sys.path.append(os.getcwd())
 
-try:
-    from pyinit.__main__ import main
-    if __name__ == '__main__':
-        sys.exit(main())
-except:
-    import pyinit.__main__'
+
+from project_name.__main__ import main
+if __name__ == '__main__':
+    sys.exit(main())

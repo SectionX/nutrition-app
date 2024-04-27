@@ -1,0 +1,5 @@
+venv
+foodDB.xlsx
+project_name/__pycache__
+project_name/src/__pycache__
+project_name/tests/__pycache__
